@@ -20,7 +20,7 @@ include_once __DIR__ . '/aplicacao/templates/cabecalho.php';
             <i class="fas fa-sign-in-alt me-2"></i> Login
         </a>
         <a href="/aplicacao/registo.php" class="btn btn-outline-light btn-lg">
-            <i class="fas fa-user-plus me-2"></i> Registrar
+            <i class="fas fa-user-plus me-2"></i> Registar
         </a>
     </div>
 
