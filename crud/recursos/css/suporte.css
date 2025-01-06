@@ -1,0 +1,95 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: #0056b3;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0056b3;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f8faff;
+        }
+
+        p, ul {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        /* Links de contato */
+        .contact-method {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-method i {
+            color: #0056b3;
+            font-size: 1.2em;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Ícones das opções de suporte */
+        .support-option {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #e9f1ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .support-option i {
+            color: #0056b3;
+            font-size: 1.5em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #0056b3;
+            color: #fff;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }

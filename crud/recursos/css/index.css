@@ -1,0 +1,97 @@
+   /* Estilo para o card */
+    .card {
+        position: relative;
+        border: none;
+        border-radius: 20px; /* Bordas mais arredondadas */
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Efeito de hover do card */
+    .card:hover {
+        transform: translateY(-10px) scale(1.03); /* Elevação mais suave e menos aumento */
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); /* Sombra mais suave */
+    }
+
+    /* Estilo da imagem do card */
+    .card-img-top {
+        object-fit: cover; /* Ajusta a imagem para preencher o card */
+        height: 220px; /* Ajuste de altura para um visual mais equilibrado */
+        transition: transform 0.3s ease-in-out;
+        filter: brightness(0.85); /* Torna a imagem um pouco mais escura */
+        border-top-left-radius: 20px; /* Arredondamento no topo */
+        border-top-right-radius: 20px; /* Arredondamento no topo */
+    }
+
+    /* Efeito de hover na imagem */
+    .card-img-top:hover {
+        transform: scale(1.05); /* Aumenta a imagem levemente */
+        filter: brightness(1); /* Restaura o brilho da imagem no hover */
+    }
+
+    /* Estilo do corpo do card */
+    .card-body {
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        border-top: 1px solid #f0f0f0;
+        position: relative;
+        border-bottom-left-radius: 20px; /* Arredondamento no fundo */
+        border-bottom-right-radius: 20px; /* Arredondamento no fundo */
+    }
+
+    /* Título do card */
+    .card-title {
+        font-size: 1.5rem; /* Tamanho maior para destaque */
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 15px;
+        transition: color 0.3s ease;
+    }
+
+    /* Efeito de hover no título */
+    .card:hover .card-title {
+        color: #007bff; /* Muda a cor do título no hover */
+    }
+
+    /* Estilo do botão */
+    .btn-primary {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 12px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        border-radius: 25px; /* Botão mais arredondado */
+        transition: background-color 0.3s ease;
+    }
+
+    /* Efeito de hover no botão */
+    .btn-primary:hover {
+        background-color: #0056b3;
+        transform: translateY(-2px); /* Eleva o botão ao passar o mouse */
+    }
+
+    /* Efeito de hover do botão: foco e sombra */
+    .btn-primary:focus,
+    .btn-primary:active {
+        outline: none;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Animação de entrada do card */
+    .card {
+        animation: fadeInUp 0.5s ease-out;
+    }
+
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }

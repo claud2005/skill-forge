@@ -1,0 +1,67 @@
+/* Estilo Geral */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Estilo do Cartão */
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Cabeçalho do Formulário */
+.card-header {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    font-size: 1.5rem;
+}
+
+/* Campos e Botões */
+.form-control-lg {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.btn-lg {
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #5109d9);
+}
+
+.btn-outline-secondary {
+    color: #333;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e9ecef;
+    color: #333;
+}
+
+/* Alertas */
+.alert {
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .form-control-lg {
+        font-size: 1rem;
+    }
+    .btn-lg {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
